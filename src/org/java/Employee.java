@@ -3,7 +3,9 @@ package org.java;
 public class Employee {
 	public void addEmployee()
 	{
-		System.out.println("Employee added");
+		int empid=101;
+		System.out.println("Employee added"+empid);
+		return empid;
 	}
 	public void updateEmployee()
 	{
